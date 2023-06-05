@@ -1,0 +1,79 @@
+.main-connexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+form.formulaire-connexion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    width: 30%;
+    height: 350px;
+}
+
+.formulaire-connexion label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+.formulaire-connexion div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding:0;
+}
+
+#mdp,#email{
+    margin: 0px;
+    width: 100%;
+    height: 60px;
+}
+
+#mdp{
+    margin-bottom: 30px;
+}
+
+.titre-connexion{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #C7362E;
+    color: white;
+    border-radius: 40px;
+    border: none;
+}
+
+.formulaire-connexion div:nth-child(5){
+    margin-top: 30px;
+}
+
+.probleme-connexion{
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .main-connexion{
+        padding: 10%;
+    }
+    form.formulaire-connexion{
+        width: 80%;
+    }
+}

@@ -1,0 +1,50 @@
+main{
+    margin: 7%;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #E7E7E7;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+li, a{
+    list-style: none;
+    color: #E7E7E7;
+}
+
+div{
+    width: 70%;
+}
+
+div ul>li{
+    padding-bottom: 15px;
+}
+
+.sous-liste li{
+    padding-left: 20px;;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sous-liste li:last-child{
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+div>ul>li:not(:first-child){
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid #E7E7E7;
+}
+
+a:hover{
+    color: #C7362E;
+}
+
+.table-rechercher-trajet{
+    margin-bottom: -8px;
+
+}

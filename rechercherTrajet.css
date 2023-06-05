@@ -1,0 +1,165 @@
+.rechercher-trajet {
+    background: url(../images/rechercherTrajet.jpg) no-repeat center center fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.rechercher-trajet section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px;
+}
+
+.formulaire-rechercher-trajet{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    width: 70%;
+    height: auto;
+}
+
+.formulaire-rechercher-trajet h1{
+    color: #C7362E;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.jour-trajet{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.jour-trajet label{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.jour-trajet input{
+    text-align: center;
+    width: 120%;
+    height: 20px;
+    margin-left: -10px;
+}
+
+.heure-trajet{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.heure-trajet label{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.heure-trajet input{
+    text-align: center;
+    width: 120%;
+    height: 20px;
+    margin-left: -13px;
+}
+
+.lieu-depart{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.lieu-depart label{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.lieu-depart input{
+    text-align: center;
+    width: 120%;
+    height: 20px;
+    margin-left: -15px;
+}
+
+.lieu-arrivee{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.lieu-arrivee label{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.lieu-arrivee input{
+    text-align: center;
+    width: 120%;
+    height: 20px;
+    margin-left: -15px;
+}
+
+.bouton-trouver-trajet{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #C7362E;
+    color: white;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+#reveler-trajets{
+    display: none;
+}
+
+.proposition-trajet{
+    display: none;
+    margin-top: 20px;
+}
+
+.proposition-trajet h2{
+    color: #C7362E;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+
+.proposition-trajet div{
+    margin: 10px;
+}
+
+.reserver{
+    padding: 10px; 
+    background-color: #C7362E;
+    color: #E7E7E7;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 40px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: 50px;
+    text-align: center;
+    border: none;
+}
+
+#reveler-trajets:checked + .proposition-trajet{
+    display: block;
+}
+
+@media (min-width: 1000px){
+    .formulaire-rechercher-trajet{
+        width: 30%;
+        margin: auto;
+    }
+}

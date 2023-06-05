@@ -1,0 +1,93 @@
+.accueil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.521) ),url(../images/accueil.jpg) no-repeat center center fixed;
+}
+
+.titre-accueil{
+    align-items: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color:  #E7E7E7;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.decouvrir{
+    margin-top: 70px;
+    padding: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    background: linear-gradient( rgb(247, 119, 35), rgba(255, 211, 65, 0.521) ), #df6d22;
+    border-radius: 30px;
+}
+
+.decouvrir a{
+    color: white;
+    text-decoration: none;
+}
+
+.decouvrir:hover a{
+    color: #131212;
+}
+
+#description-programme{
+    background-color: rgba(19, 18, 18, 0.644);
+    color: #faf4ea;
+    padding: 50px;
+}
+
+#description-programme h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#description-programme h3{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#description-programme p{
+    text-align: justify;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.description-location{
+    background-color: rgb(235, 234, 233);
+    color: rgb(19, 18, 18);
+    padding: 50px;
+    padding-top: 30px;
+}
+
+.description-location h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.description-location p{
+    text-align: justify;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+
+
+
+

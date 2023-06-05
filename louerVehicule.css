@@ -1,0 +1,144 @@
+.louer-vehicule {
+    background: url(../images/louer.jpg) no-repeat center center fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.louer-vehicule section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px;
+}
+
+.formulaire-louer-vehicule{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    width: 70%;
+    height: auto;
+}
+
+.formulaire-louer-vehicule h1{
+    color: #C7362E;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.description-location-vehicule{
+    font-size: large;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.jour-location, .jour-rendu{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.jour-location label , .jour-rendu label{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.jour-location input , .jour-rendu input{
+    text-align: center;
+    width: 120%;
+    height: 20px;
+    margin-left: -10px;
+}
+
+
+.heure-trajet{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.heure-trajet label{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.heure-trajet input , .div-modele-vehicule input{
+    text-align: center;
+    width: 120%;
+    height: 20px;
+    margin-left: -13px;
+}
+
+.div-modele-vehicule{
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.bouton-trouver-vehicule{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #C7362E;
+    color: white;
+    border-radius: 40px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#reveler-vehicule{
+    display: none;
+}
+
+.proposition-vehicule{
+    display: none;
+    margin-top: 20px;
+}
+
+.proposition-vehicule h2{
+    color: #C7362E;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+
+.proposition-vehicule div{
+    margin: 10px;
+}
+
+.reserver{
+    padding: 10px; 
+    background-color: #C7362E;
+    color: #E7E7E7;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 40px;
+    margin: 10px;
+    margin-left: 15px;
+    margin-top: 50px;
+    text-align: center;
+    border: none;
+}
+
+#reveler-vehicule:checked + .proposition-vehicule{
+    display: block;
+}
+
+@media (min-width: 1000px){
+    .formulaire-louer-vehicule{
+        width: 30%;
+        margin: auto;
+    }
+}

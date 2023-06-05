@@ -1,0 +1,134 @@
+.proposer-trajet {
+    background:  url(../images/proposerTrajet.jpg) no-repeat center center fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.proposer-trajet section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px;
+}
+
+.formulaire-proposer-trajet{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    width: 70%;
+    height: auto;
+}
+
+.formulaire-proposer-trajet h1{
+    color: #C7362E;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.description-proposition-trajet{
+    font-size: large;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.checkbox-choix-trajet{
+    text-align: center;
+    width: 100%;
+    margin: 15px;
+}
+
+.checkbox-choix-trajet input{
+    margin-left: 20px;
+}
+
+.checkbox-choix-trajet label{
+    font-size: 1.2em;
+}
+
+.jour-trajet{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.jour-trajet label{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.jour-trajet input{
+    text-align: center;
+    width: 120%;
+    height: 20px;
+    margin-left: -10px;
+}
+
+.heure-trajet{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.heure-trajet label{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.heure-trajet input{
+    text-align: center;
+    width: 120%;
+    height: 20px;
+    margin-left: -13px;
+}
+
+.lieu-depart{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.lieu-depart label{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.lieu-depart input{
+    text-align: center;
+    width: 120%;
+    height: 20px;
+    margin-left: -15px;
+}
+
+.proposer{
+    padding: 10px; 
+    background-color: #C7362E;
+    color: #E7E7E7;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 40px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: center;
+    border: none;
+}
+
+@media (min-width: 1000px){
+    .formulaire-proposer-trajet{
+        width: 40%;
+        margin: auto;
+    }
+
+    .description-proposition-trajet{
+        text-align: center;
+    }
+}
